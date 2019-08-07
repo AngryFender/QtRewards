@@ -30,6 +30,12 @@ database::database()
     sqlChannelsRewards->setQuery(query_channelsRewards);
 }
 
+database::~database()
+{
+    delete sqlAccounts;
+    delete sqlChannelsRewards;
+}
+
 QSqlQueryModel *database::getSqlAccounts() const
 {
     return sqlAccounts;

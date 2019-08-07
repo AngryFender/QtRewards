@@ -26,6 +26,7 @@ login::~login()
     delete scene_welcome;
     delete effect_opacity;
     delete ui;
+    delete delegate;
 }
 
 void login::setup_animation()

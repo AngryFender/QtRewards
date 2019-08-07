@@ -12,7 +12,7 @@ class database
 {
 public:
     database();
-
+    ~database();
     QSqlQueryModel *getSqlAccounts() const;
     QSqlQueryModel *getSqlChannelsRewards() const;
 

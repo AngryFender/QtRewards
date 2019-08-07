@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/IMAGE_REWARD"/>
+    <qresource prefix="/">
+        <file alias="IMAGE_SKY">skyIcons/Sky.png</file>
+        <file alias="IMAGE_BACKGROUND">skyIcons/skyBackground.jpg</file>
+        <file alias="IMAGE_REWARD">skyIcons/skyrewards.jpg</file>
+        <file alias="ICON_SKY">skyIcons/sky.ico</file>
+        <file alias="IMAGE_NOTFOUND">skyIcons/notFound.jpg</file>
+    </qresource>
+</RCC>
